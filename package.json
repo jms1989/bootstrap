@@ -1,7 +1,7 @@
 {
   "name": "bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "keywords": [
     "css",
     "less",
@@ -15,7 +15,7 @@
   "author": "Twitter, Inc.",
   "scripts": {
     "change-version": "node grunt/change-version.js",
-    "shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json",
+    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json",
     "test": "grunt test"
   },
   "style": "dist/css/bootstrap.css",
